@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Jan 06 2025 09:42:58 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Thu Jan 09 2025 14:48:15 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="66b30969ebcbac87918c28c4" data-wf-site="66b30968ebcbac87918c270a">
 <head>
   <meta charset="utf-8">
@@ -2637,7 +2637,10 @@ margin: 0rem !important;
         <div class="container-large">
           <div class="padding-vertical padding-xxlarge">
             <div class="footer8_bottom-wrapper">
-              <div class="footer8_credit-text">© 2024 Sparky. All rights reserved.</div>
+              <div class="footer8_credit-text">© <span id="year">2025</span> Sparky. All rights reserved.</div>
+              <div class="hide w-embed w-script">
+                <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+              </div>
               <div class="w-layout-grid footer8_legal-list">
                 <a href="https://www.mediastudio.hk/" target="_blank" class="footer8_legal-link">Designed by Media Studio</a>
               </div>
