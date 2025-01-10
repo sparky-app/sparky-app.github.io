@@ -1386,9 +1386,13 @@ figcaption {
 }
 
 .header36_content {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   max-width: 35rem;
   margin-left: 5vw;
   margin-right: 5rem;
+  display: flex;
 }
 
 .header36_image-wrapper {
@@ -3797,7 +3801,15 @@ figcaption {
   }
 }
 
-#w-node-_0fb26de9-51c4-8045-8441-58c7e24345eb-918c28c4, #w-node-c5a2192b-b465-3fe9-c8dd-6a9163d8c9fe-918c28c4, #w-node-_0dd53094-cd01-2547-265f-a9b727a83c50-918c28c4 {
+#w-node-_0fb26de9-51c4-8045-8441-58c7e24345eb-918c28c4 {
+  justify-self: end;
+}
+
+#w-node-c5a2192b-b465-3fe9-c8dd-6a9163d8c9fe-918c28c4 {
+  justify-self: start;
+}
+
+#w-node-_0dd53094-cd01-2547-265f-a9b727a83c50-918c28c4 {
   justify-self: end;
 }
 
