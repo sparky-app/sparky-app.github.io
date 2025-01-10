@@ -3660,7 +3660,12 @@ figcaption {
   }
 
   .header36_component {
+    grid-column-gap: 0rem;
+    grid-row-gap: 4rem;
+    grid-template-rows: auto;
     grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
   }
 
   .header36_image-wrapper {
