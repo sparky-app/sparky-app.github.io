@@ -17,6 +17,7 @@
   --light-pink: #ffdde8;
   --black: black;
   --violet: #742fd0;
+  --yellow: #fbc14d;
   --border-color--border-alternate: var(--base-color-neutral--neutral-darker);
   --red: #de4f4a;
   --background-color--background-warning: var(--base-color-system--warning-yellow);
@@ -24,7 +25,6 @@
   --transparent: #fff0;
   --blue: #29bcc6;
   --green: #8cbf4d;
-  --yellow: #fbc14d;
   --base-color-brand--blue-light: #d9e5ff;
   --base-color-brand--blue: #2d62ff;
   --base-color-brand--blue-dark: #080331;
@@ -2611,6 +2611,15 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
+  .button.is-small.is-nav {
+    background-color: var(--yellow);
+  }
+
+  .button.is-small.is-nav:hover {
+    background-color: var(--violet);
+    color: var(--white);
+  }
+
   .button.download {
     text-decoration: none;
   }
@@ -3812,7 +3821,7 @@ figcaption {
   }
 }
 
-#w-node-_0fb26de9-51c4-8045-8441-58c7e24345eb-918c28c4, #w-node-_0dd53094-cd01-2547-265f-a9b727a83c50-918c28c4 {
+#w-node-_0dd53094-cd01-2547-265f-a9b727a83c50-918c28c4, #w-node-_624c3845-24c6-eace-07dd-cc9b843387c6-843387af {
   justify-self: end;
 }
 
@@ -3823,13 +3832,13 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_4e21227d-4260-70c6-10be-47f587057b6f-918c28c4 {
-    grid-area: 1 / 3 / 2 / 4;
-    justify-self: end;
-  }
-
   #w-node-_286e2206-f72c-f155-ab3b-dfd3aebba197-918c28c4 {
     grid-column: span 1 / span 1;
+  }
+
+  #w-node-_624c3845-24c6-eace-07dd-cc9b843387b1-843387af {
+    grid-area: 1 / 3 / 2 / 4;
+    justify-self: end;
   }
 }
 
